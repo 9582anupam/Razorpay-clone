@@ -62,10 +62,7 @@
 }
 
 
-.cta-img
-{
-    background-size: 100% 100%;
-}
+
 
 
 .featureCard-content2:hover .strip-img
@@ -98,3 +95,28 @@
     transition: 200ms;
 }
 
+
+.cta-bg
+{
+    background-size: 210% 100%;
+}
+
+@media (min-width: 768px)
+{
+    .cta-bg
+    {
+        background-size: 110% 100%;
+    }
+}
+
+@media (min-width: 1024px)
+{
+    .cta-bg
+    {
+        background-size: 100% 100%;
+    }
+}
+
+/* lg:bg-[length:100%_100%] 
+md:bg-[length:160%_100%]
+bg-[length:285%_130%] */
